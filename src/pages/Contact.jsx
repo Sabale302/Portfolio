@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import '../styles.css'; 
 import { FaBriefcase, FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
@@ -8,9 +9,9 @@ const Projects = () => {
 
       <div className="row">
         {/* Align left */}
-        <div className="col-md-4 d-flex flex-column">
-          <p className="d-flex align-items-center">
-            <FaBriefcase className="me-2" />
+        <div className="col-md-4 d-flex flex-column mt-4">
+          <p className="d-flex align-items-center fs-3">
+            <FaBriefcase className="me-2" size={30}/>
             Don't be shy!
           </p>
           <p>
@@ -18,25 +19,25 @@ const Projects = () => {
             new projects, creative ideas, or opportunities to be part of your
             visions.
           </p>
-          <p>
-            <FaEnvelope className="me-2" />
+          <p className='fs-5'>
+            <FaEnvelope className="me-2" size={30}/>
             Mail me <br />
             <a href="mailto:sabaleraj744@gmail.com">sabaleraj744@gmail.com</a>
           </p>
-          <p>
-            <FaPhone className="me-2" />
+          <p className='fs-5'>
+            <FaPhone className="me-2" size={30}/>
             Call me <br />
             <a href="tel:+917558550310">+91 7558550310</a>
           </p>
 
-          <div className="d-flex">
+          <div className="d-flex mt-4">
             <a
               href="https://www.linkedin.com/in/raj-sabale/"
               target="_blank"
               rel="noreferrer"
               className="me-2"
             >
-              <FaLinkedin />
+              <FaLinkedin size={30}/>
             </a>
             <a
               href="https://www.github.com/Sabale302"
@@ -44,7 +45,7 @@ const Projects = () => {
               rel="noreferrer"
               className="me-2"
             >
-              <FaGithub />
+              <FaGithub size={30}/>
             </a>
             <a
               href="https://www.instagram.com/raj__sabale/"
@@ -52,7 +53,7 @@ const Projects = () => {
               rel="noreferrer"
               className="me-2"
             >
-              <FaInstagram />
+              <FaInstagram size={30}/>
             </a>
           </div>
         </div>
@@ -72,7 +73,7 @@ const Projects = () => {
               <label htmlFor="message" className="form-label">Message</label>
               <textarea className="form-control" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary" style={{marginBottom: '100px'}}>Submit</button>
           </form>
         </div>
       </div>

@@ -11,6 +11,8 @@ const About = () => {
         { name: "React", level: 65 },
         { name: "Node.js", level: 60 },
         { name: "Python", level: 85 },
+        { name: "Power BI", level: 30 },
+        { name: "Penetration Testing", level: 65 },
     ];
 
     const experience = [
@@ -87,7 +89,6 @@ const About = () => {
                 </div>
             </div>
            
-
             <hr style={{width: '50%', margin:'2% 0% 2% 25% '}} />
 
             {/* Experience */}
