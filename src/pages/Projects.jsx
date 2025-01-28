@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectPage = () => {
   return (
-    <div className="container py-5" style={{marginBottom: '90x'}}>
+    <div className="container py-5" style={{marginBottom: '90px'}}>
       {/* Header Section */}
       <header className="text-center mb-5">
         <h1 className="fw-bold">Projects</h1>
